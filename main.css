@@ -15,9 +15,22 @@ h2,h4 {
   justify-content: center;
   display: flex;
 }
-
+input {
+  width: 200px;
+  height: 25px;
+  margin: 10px 0px 10px 0px;
+}
 input:hover{
   border: 2px solid #FFD54F;
+}
+
+.form-control{
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 2px solid #ced4da;
+  border-radius: .25rem;
 }
 
 .title {
@@ -41,10 +54,51 @@ input:hover{
   margin:0 auto;
 }
 .inputs {
-  height: 150px;
-  width: 90%;
-  margin: 0px 50px 0px 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
 }
+.player-1{
+  width: 19%;
+  height: 350px;
+  margin-left: 5%;
+  float:left;
+  display: flex;
+  flex-direction: column;
+}
+.player-2{
+  width: 19%;
+  height: 350px;
+  float:left;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-3{
+  width: 19%;
+  height: 350px;
+  float:left;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-4{
+  width: 19%;
+  height: 350px;
+  float:left;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-5{
+  width: 19%;
+  height: 350px;
+  float:left;
+  display: flex;
+  flex-direction: column;
+}
+
 
 .button{
   height: 50px;

@@ -50,14 +50,17 @@ input:hover{
 }
 
 .form-title{
+  height: 50px;
   display: flex;
   margin:0 auto;
+  font-size: 20px;
 }
 .inputs {
   width: 100%;
   display: flex;
   flex-wrap:wrap;
   align-items: center;
+
 }
 .player-1{
   width: 19%;
@@ -89,6 +92,7 @@ input:hover{
   float:left;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .player-5{
@@ -114,4 +118,16 @@ input:hover{
 button:hover {
   border: 3px solid #FFD54F;
   font-size: 15px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right:0;
+  height: 50px;
+}
+a {
+  text-decoration: none;
+  font-size: 25px;
 }

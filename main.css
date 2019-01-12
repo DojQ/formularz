@@ -16,7 +16,7 @@ h2,h3 {
   display: flex;
 }
 input {
-  width: 150px;
+  width: 200px;
   height: 25px;
   margin: 10px 0px 10px 0px;
 }
@@ -61,8 +61,6 @@ input:hover{
   flex-wrap:wrap;
   align-items: center;
   background-color: #EEEEEE;
-
-
 }
 .player-1{
   width: 19%;
@@ -94,7 +92,6 @@ input:hover{
   float:left;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .player-5{

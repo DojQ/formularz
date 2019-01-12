@@ -60,6 +60,8 @@ input:hover{
   display: flex;
   flex-wrap:wrap;
   align-items: center;
+  background-color: #EEEEEE;
+
 
 }
 .player-1{
@@ -108,12 +110,13 @@ input:hover{
   height: 50px;
   width: 200px;
   display: flex;
-  margin: 80px auto;
+  margin: 30px auto;
   align-items: center;
   text-align: center;
   justify-content: center;
   border-radius: 10px;
   border: 3px solid #000;
+
 }
 button:hover {
   border: 3px solid #FFD54F;
@@ -126,8 +129,22 @@ button:hover {
   left:0;
   right:0;
   height: 50px;
+  background-color: #EEEEEE;
+}
+.regulamin {
+  height: 50px;
+  width: 100%;
+  font-size: 12px;
+  float: left;
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+.regulamin-checkbox{
+  width: 15px;
+  height: 15px;
 }
 a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
+  color: #000;
 }
